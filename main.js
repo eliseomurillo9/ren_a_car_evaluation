@@ -12,9 +12,9 @@ const menu = document.getElementsByClassName('menu_container')[0];
 
 // ----- Cars Gallery -----
 //buttons
-const nextButton = document.querySelectorAll('#next');
+const nextButton = document.querySelectorAll('.next');
 let changeIndexButton = 0;
-const previousButton = document.querySelectorAll('#previous');
+const previousButton = document.querySelectorAll('.previous');
 const peugeotGallery = ['./src/vehicule1.png', './src/vehicule1_side.png', './src/vehicule1_rear.png'];
 const fordGallery = ['./src/vehicule2.png', './src/vehicule2_side.png', './src/vehicule2_rear.jpg'];
 const audiGallery = ['./src/vehicule3.png', './src/vehicule3_side.png', './src/vehicule3_side2.png'];
