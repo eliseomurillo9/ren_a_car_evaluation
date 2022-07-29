@@ -106,8 +106,10 @@ for (let i = 0; i < nextButton.length; i++) {
 };
 
 // ---Previous Button---
-for (let i = 0; i < previousButton.length; i++) {
-    const buttonsprev = previousButton[i];
+
+    if (changeIndexButton === 1) {
+        changeIndexButton = 2;
+    }
 
     buttonsprev.addEventListener('click', function () {
         changeIndexButton--
@@ -135,5 +137,4 @@ for (let i = 0; i < previousButton.length; i++) {
             imgToChange.src = `${opelGallery[changeIndexButton]}`
         };
     });
-};
 
