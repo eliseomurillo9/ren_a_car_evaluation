@@ -107,9 +107,8 @@ for (let i = 0; i < nextButton.length; i++) {
 
 // ---Previous Button---
 
-    if (changeIndexButton === 1) {
-        changeIndexButton = 2;
-    }
+for (let i = 0; i < previousButton.length; i++) {
+    const buttonsprev = previousButton[i];
 
     buttonsprev.addEventListener('click', function () {
         changeIndexButton--
@@ -138,3 +137,7 @@ for (let i = 0; i < nextButton.length; i++) {
         };
     });
 
+}
+
+
+    
